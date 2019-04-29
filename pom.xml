@@ -38,7 +38,7 @@
 							<goal>make-xar</goal>
 						</goals>
 						<configuration>
-							<descriptor>modules/build/assembly.xml</descriptor>
+							<descriptor>modules/build/xar-assembly.xml</descriptor>
 							<finalName>${project.build.finalName}</finalName>
 						</configuration>
 					</execution>
