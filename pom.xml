@@ -32,7 +32,7 @@
 				<version>0.6.1</version>
 				<executions>
 					<execution>
-						<id>create-general-test-build</id>
+						<id>make-xar</id>
 						<phase>package</phase>
 						<goals>
 							<goal>make-xar</goal>
