@@ -15,6 +15,7 @@
 		<package.name>http://exist-db.org/apps/tamboti</package.name>
 		<package.title>Tamboti Metadata Framework</package.title>
 		<package.type>application</package.type>
+		<maven.version>3.6.0</maven.version>
 	</properties>
 
 	<developers>
@@ -27,9 +28,29 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-enforcer-plugin</artifactId>
+				<version>3.0.0-M2</version>
+				<executions>
+					<execution>
+						<id>enforce-maven</id>
+						<goals>
+							<goal>enforce</goal>
+						</goals>
+						<configuration>
+							<rules>
+								<requireMavenVersion>
+									<version>${maven.version}</version>
+								</requireMavenVersion>
+							</rules>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
 				<groupId>ro.kuberam.maven.plugins</groupId>
 				<artifactId>kuberam-expath-plugin</artifactId>
-				<version>0.6.1</version>
+				<version>0.6.0</version>
 				<executions>
 					<execution>
 						<id>make-xar</id>
