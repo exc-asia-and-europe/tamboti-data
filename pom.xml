@@ -6,14 +6,14 @@
 
 	<groupId>de.uni-hd.hra</groupId>
 	<artifactId>tamboti-data</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 	<url>http://exist-db.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<package.name>http://exist-db.org/apps/tamboti</package.name>
-		<package.title>Tamboti Metadata Framework</package.title>
+		<package.title>Tamboti Data</package.title>
 		<package.type>application</package.type>
 		<maven.version>3.6.0</maven.version>
 	</properties>

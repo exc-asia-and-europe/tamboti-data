@@ -44,5 +44,5 @@ declare function local:add-index-configuration-file($collection-path as xs:strin
 (
 	local:add-index-configuration-file($data-collection-path)
 	,
-	local:add-index-configuration-file($$temp-collection-path)
+	local:add-index-configuration-file($temp-collection-path)
 )
