@@ -12,7 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<package.name>http://exist-db.org/apps/tamboti</package.name>
+		<package.name>http://exist-db.org/apps/tamboti-data</package.name>
 		<package.title>Tamboti Data</package.title>
 		<package.type>application</package.type>
 		<maven.version>3.6.0</maven.version>
