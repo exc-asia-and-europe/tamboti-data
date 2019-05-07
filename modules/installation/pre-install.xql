@@ -36,8 +36,7 @@ declare function local:add-index-configuration-file($collection-path as xs:strin
 		else ()
 		,	
 		xmldb:store-files-from-pattern($index-collection-path, $dir, "modules/indexes" || $collection-path || "/*.xconf")
-		,
-		xmldb:reindex($collection-path)
+
 	)
 };
 

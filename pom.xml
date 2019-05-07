@@ -6,7 +6,7 @@
 
 	<groupId>de.uni-hd.hra</groupId>
 	<artifactId>tamboti-data</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 	<url>http://exist-db.org</url>
 
