@@ -5,10 +5,10 @@ declare variable $dir external;
 declare variable $target external;
 
 declare variable $data-collection-name := "data";
-declare variable $temp-collection-name := "temp";
+declare variable $temp-collection-name := "tmp";
 
-declare variable $data-collection-path := "/data";
-declare variable $temp-collection-path := $data-collection-path || "/" || $temp-collection-name;
+declare variable $data-collection-path := "/" || $data-collection-name;
+declare variable $temp-collection-path := "/" || $temp-collection-name;
 declare variable $system-config-collection-path := "/system/config/db";
 
 declare function local:create-collections-recursively($target-collection-uri as xs:string, $new-collection-path-steps as xs:string*) as xs:string* {
